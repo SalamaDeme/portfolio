@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="FT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3b57eaf7c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+         <ul>
+            <li><a href="#">Acceuil</a></li>   
+            <li><a href="#">A propos</a></li>   
+            <li><a href="#">Services</a></li>   
+            <li><a href="#">Portfolio</a></li>   
+            <li><a href="/Blog.html" target="_blank">Blog</a></li>   
+            <li><a href="#contact">Contact</a></li>   
+         </ul>
+        </nav>
+        <div class="header-text">
+            <p>Juriste / Développeuse Front-End Junior</p>
+            <h1>Bonjour, je suis <span>Salama</span><br> Que puis-je faire pour vous ?</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------A propos---------- -->
+<div class="a-propos">
+    <div class="container">
+        <div class="row">
+            <div class="a-propos-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="a-propos-col-2">
+                <h1 class="sous-titre"> A propos de moi</h1>
+                <p>Bonjour et bienvenue sur ma page personnelle ! Je m'appelle Salama, je suis une étudiante diplômée en droit avec une passion pour les nouvelles technologies. Mon objectif est de me spécialiser dans le droit du numérique en intégrant un master afin de contribuer à l'évolution de ce domaine en pleine expansion.
+                    En parallèle de mes études, je me suis intéressée au développement front-end et j'ai acquis de multiples compétences. J'ai également travaillée sur différents projets, ce qui m'a permis de développer mes compétences en programmation et de comprendre l'importance de l'expérience utilisateur dans le développement de sites web.
+                    Je suis persuadée que le droit et les nouvelles technologies sont des domaines complémentaires et en constante évolution. Mon objectif est de mettre mes compétences en droit et en développement front-end au service de projets innovants et ambitieux.
+                    Si vous souhaitez en savoir plus sur mes projets et mes compétences, n'hésitez pas à explorer mon portfolio. Je suis toujours ouverte à de nouvelles opportunités professionnelles et je serais ravie de discuter avec vous de tout projet ou collaboration potentiel.</p>
+
+                    <div class="tab-titre">
+                        <p class="tab-liens active-liens" onclick="opentab('Expertises')">Expertises</p>
+                        <p class="tab-liens" onclick="opentab ('Expériences')">Expériences</p>
+                        <p class="tab-liens" onclick="opentab ('Formations')">Formations</p>
+                      </div>
+
+                    <!-- --------Expertises-------- -->
+
+                    <div class="tab-contents">
+                        <div class="tab-content active-tab" id="Expertises">
+                    <ul>
+                        <li><span>Rédaction juridique </span><br>Rédaction précise de documents juridiques tels que des contrats</li>
+                        <li><span>Veille juridique</span><br>Recherche approfondie de la jurisprudence, de la législation et des précédents pour identifier des informations pertinentes </li>
+                        <li><span>Analyse juridique</span><br>Analyse des informations juridiques collectées pour évaluer leur pertinence et leur applicabilité à des cas particuliers.</li>
+                        <li><span>Conseil juridique</span><br>Conseil aux clients sur leurs droits et obligations juridiques, ainsi que sur les voies de recours disponibles en fonction de la législation et de la réglementation applicables.</li>
+
+                        <li><span>HTML/CSS </span><br>Création de pages web esthétiques et fonctionnelles en utilisant les langages de balisage HTML et CSS.</li>
+                        <li><span>JavaScript</span><br> Ajout de fonctionnalités interactives aux pages web à l'aide du langage de programmation JavaScript pour améliorer l'expérience utilisateur</li>
+                        <li><span>Conception réactive</span><br>Coonception de sites web réactifs pour garantir une expérience utilisateur optimale sur tous les appareils, en utilisant des techniques de mise en page et de conception adaptatives.</li>
+                    </ul>
+                  </div>  
+                    <!-- ----------------Expérience----------- -->
+                    <div class="tab-content" id="Expériences">
+                    <ul>
+                        <li><span>Depuis septembre 2020 Assitante juridique</span><br>Rédaction et optimisation de contrats de travail conformes aux lois et réglementations en vigueur pour les chauffeurs VTC <br> Surveillance active de la jurisprudence en matière automobile pour s'assurer de la conformité des clients aux normes et réglementations en vigueur <br> Transmission rapide et efficace de documents administratifs conformes pour les applications de transport tels qu'Uber <br>Vulgarisation du droit à destination des chauffeurs VTC et assistance pour remplir les formulaires administratifs 
+                        </li>
+                    </ul>
+                    <!-- ----------Formations---------- -->
+                  </div>  <div class="tab-content" id="Formations">
+                    <ul>
+                        <li><span>De septembre 2019 à Mai 2022 Université Paris Nanterre </span><br> Licence droit <br>Droit du numérique - Droit des obligations - Régime général des obligations - Droit des contrats spéciaux  - Droit du travail - Protection sociale - Droit des sociétés - Procédure civile - Procédure pénale - Libertés fondamentales - Droit civil des biens - Droit de la famille et des personnes - Droit de la responsabilité civile - Droit administratif - Droit européen - 
+                             </li>
+                        <li><span>De septembre 2018 à juin 2019 Erea Toulouse Lautrec Vaucresson </span><br>Baccalaurréat Littéraire Mention Bien</li>
+                    </ul>
+                  </div>  
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- ------------------Services----------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sous-titre"> Mes services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div> 
+
+                <div>
+                    <i class="fa-light fa-scale-balanced"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-gavel"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-contract"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-contract"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-contract"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Portfolio--------------- -->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sous-titre"> Mes Projets</h1>
+            <div class="projets-list">
+
+                <div class="projet">
+                    <img src="/images/work-1.jpg">
+                    <div class="layer">
+                        <h3>QR code component</h3>
+                        <p>Imaginez que vous êtes en train de distribuer des flyers pour votre entreprise, et que vous voulez que les gens puissent accéder rapidement et facilement à votre site web. C'est là qu'intervient le QR code ! Avec un simple scan de votre smartphone, le QR code permet aux utilisateurs de se connecter instantanément à votre site web, à votre carte de visite, ou même à votre menu de restaurant en ligne. C'est une solution rapide et pratique pour fournir des informations à vos clients ou à votre public.</p>
+                        <a href="https://salamademe.github.io/QR-code-component/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem necessitatibus facilis sapiente reiciendis quos? Eligendi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem necessitatibus facilis sapiente reiciendis quos? Eligendi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#"class="btn">Voir plus</a>
+            </div>
+          </div>  
+        </div>
+
+        <!-- --------------Contact---------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="contact-gauche">
+                        <h1>Contactez-moi</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Salamademe@outlook.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>07.49.89.72.09</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/salamademe"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/SalamaDeme"><i<i class="fa-brands fa-github"></i>
+                            <a href=""><i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <a href="/CV  Salama_Deme.pdf" download
+                         class="btn btn2">Télécharger mon cv</a>
+                    </div>
+
+                    <div class="contact-droit">
+                        <form>
+                            <input type="text" name="name" placeholder="Votre prénom" required>
+                            <input type="email" name="email" placeholder="Votre adresse mail" required>
+                            <textarea name="message" rows="6" placeholder="Votre message"></textarea>
+                            <button type="submit" class="btn btn2">Soumettre</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Cpyright Kevin Easy by Tutorials </p>
+            </div>
+        </div>
+        
+<script>
+    var tabLiens = document.getElementsByClassName("tab-liens");
+var tabContents = document.getElementsByClassName("tab-content");
+
+// Masquer tous les contenus des liens par défaut
+for (var i = 0; i < tabContents.length; i++) {
+  tabContents[i].style.display = "none";
+}
+
+function opentab(tabname) {
+  // Masquer tous les contenus des liens avant d'afficher le contenu souhaité
+  for (var i = 0; i < tabContents.length; i++) {
+    tabContents[i].style.display = "none";
+  }
+  // Supprimer la classe active-liens de tous les liens avant d'ajouter la classe active-liens au lien cliqué
+  for (var i = 0; i < tabLiens.length; i++) {
+    tabLiens[i].classList.remove("active-liens");
+  }
+  event.currentTarget.classList.add("active-liens");
+
+  // Afficher le contenu du lien cliqué
+  var tabContent = document.getElementById(tabname);
+  tabContent.style.display = "block";
+}
+
+    </script>
+    
+    
+
+
+
+
+</body>
+</html>
